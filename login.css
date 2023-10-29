@@ -1,0 +1,68 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.big-box{
+    width: 100%;
+    height: 100vh;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 30%;
+    height: 70%;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+
+}
+.box-title{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.box-form{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+.box-form input{
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 2px solid blue;
+    outline: none;
+}
+#submit{
+    border: none;
+    background-color: blue;
+    color: white;
+    height: 25px;
+}
+#submit:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+body {
+    background: url("flat-halloween-background_916191-20082.avif");
+    background-size: cover;
+    background-position-y: -60;
+}

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div class="navbar-containter">
+           <div class="nav-left">
+            <div class="nav-icon">
+              <a href="index.html"><i class="fa-solid fa-ghost"></i></a>
+            </div>
+            <div class="nav-content">
+              <h3 class="following">FOLLOWING</h3>
+              <h3 class="BROWSE">BROWSE</h3>
+            </div>
+           </div>
+           <!-- Search -->
+           <div class="nav-center">
+            <div class="box-search">
+              <div class="search-bar">
+                <input 
+                  id="search" 
+                  type="search" 
+                  placeholder="Start typing to search..." 
+                  list="search-suggestions" 
+                  autocomplete="off"
+                />
+                
+                <datalist id="search-suggestions">
+                  <option value="JavaScript">
+                  <option value="CSS">
+                  <option value="Accessibility">
+                  <option value="Web Design">
+                </datalist>
+              </div>
+              
+            </div>
+           </div>
+           <div class="nav-right">
+            <div class="avatar"></div>           
+            <a class="sign-up" href="login.html"><button class="sign-up">SIGN UP</button></a>
+           </div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <!-- MAIN -->
+    <div class="main">
+        <div class="main-container">
+            <div class="main-left">
+              <ul>
+                <li>FOR YOU</li>
+                <li>Favorite</li>
+              </ul>
+            </div>
+            <div class="main-right">
+                <div class="slide">
+                    <div class="slideshow-container" >
+                        <div class="mySlides fade">
+                          <!-- <div class="numbertext">1 / 3</div> -->
+                          <img src="gradient-halloween-background_52683-91900.avif" style="width:100%">
+                          <div class="text">HALLOWEEN DAY</div>
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <!-- <div class="numbertext">2 / 3</div> -->
+                          <img src="halloween-background-flat-design_52683-43845.avif" style="width:100%">
+                          <div class="text">HALLOWEEN DAY</div>
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <!-- <div class="numbertext">3 / 3</div> -->
+                          <img src="hand-drawn-flat-halloween-background_23-2149124899.avif" style="width:100%">
+                          <div class="text">HALLOWEEN DAY</div>
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                        
+                        </div>
+                </div>
+                <div class="main-content">
+                  <h2>TIME TO WATCHING</h2>
+                  <div class="big-box">
+                      <div class="card">
+                        <div class="pic">
+                          <a href="https://gocphimk.net/vung-dat-linh-hon-spirited-away-2001/"><img class="slide-img" src="n5bGaL.jpg" alt=""></a>
+                        </div>
+                        <div class="content">
+                          <ul>
+                            <li>Title : spirited away</li>
+                            <li>Content</li>
+                            <li>Rating : 8.6/10</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="pic">
+                          <a href="https://animevsb.org/mary-va-doa-hoa-phu-thuy/"><img class="slide-img" src="tải xuống.jpg" alt=""></a>
+                        </div>
+                        <div class="content">
+                          <ul>
+                            <li>Title : Mary and the Witch’s Flower</li>
+                            <li>Content</li>
+                            <li>Rating : 6.8/10</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="pic">
+                          <a href="https://phimbo.xyz/cong-ty-quai-vat-monster-inc-46335050.html"><img class="slide-img" src="1312070.jpg" alt=""></a> 
+                        </div>
+                        <div class="content">
+                          <ul>
+                            <li>Title : Monster Inc</li>
+                            <li>Content</li>
+                            <li>Rating: 8.1/10</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="pic">
+                          <a href="https://animevsb.org/coraline/"><img class="slide-img" src="coraline-movie-wallpaper-preview.jpg" alt=""></a>    
+                        </div>
+                        <div class="content">
+                          <ul>
+                            <li>Title : Coraline</li>
+                            <li>Content</li>
+                            <li>Rating : 7.7/10</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="pic">
+                          <a href="https://animevsb.org/xem-phim/co-dau-ma"><img class="slide-img" src="425d0b378e38249bcebd35b2ffcbb5d5fa6de20fbe0e09833709e1a9e7b87289._RI_TTW_.jpg" alt=""></a>                          
+                        </div>
+                        <div class="content">
+                          <ul>
+                            <li>Title : Corpse Bride</li>
+                            <li>Content</li>
+                            <li>Rating : 7.3/10</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="pic">
+                          <a href="https://mephimtv.net/hoi-quai-hop/"><img class="slide-img" src="565729.jpg" alt=""></a>                          
+                        </div>
+                        <div class="content">
+                          <ul>
+                            <li>Title : The Boxtrolls</li>
+                            <li>Content</li>
+                            <li>Rating : 6.8/10</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="pic">
+                          <a href="https://mephimtv.net/cho-ma-frankenweenie/"><img class="slide-img" src="frankenweenie-lpcqx9uy50d107h5.jpg" alt=""></a>
+                        </div>
+                        <div class="content">
+                          <ul>
+                            <li>Title : Frankenweenie</li>
+                            <li>Content</li>
+                            <li>Rating : 6.9/10</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="pic">
+                          <a href="https://motchill.co/phim/paranorman-va-giac-quan-thu-sau-5050.html"><img class="slide-img" src="paranorman-wallpaper-preview.jpg" alt=""></a>
+                        </div>
+                        <div class="content">
+                          <ul>
+                            <li>Title : ParaNorman & Giác quan thứ 6</li>
+                            <li>Content</li>
+                            <li>Rating : 7.0/10</li>
+                          </ul>
+                        </div>
+                      </div>
+                </div>
+                <div class="main-content">
+                  <h2>Video I think you’ll like</h2>
+                  <div class="big-box">
+                    <div class="card">
+                      <div class="pic">
+                        <a href="https://mephimtv.net/xem-phim/gia-dinh-addams"><img class="slide-img" src="the-addams-family-film-poster-7qdmhumzdvbvy4u2.jpg" alt=""></a>
+                      </div>
+                      <div class="content"> 
+                        <ul>
+                          <li>Title : The Addams Family </li>
+                          <li>Content</li>
+                          <li>Rating : 5.8/10</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="pic">
+                        <a href="https://mephimtv.net/the-nightmare-before-christmas/"><img class="slide-img" src="the-nightmare-before-christmas-title-card-ama21n90lsb6eaib.jpg" alt=""></a>
+                      </div>
+                      <div class="content"> 
+                        <ul>
+                          <li>Title : The Nightmare Before Christmas</li>
+                          <li>Content</li>
+                          <li>Rating : 7.9/10</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="pic">
+                        <a href="https://mephimtv.net/ngoi-nha-ma-quai/"><img class="slide-img" src="thumb-1920-1132666.jpg" alt=""></a>
+                      </div>
+                      <div class="content">
+                        <ul>
+                          <li>Title : Monster House</li>
+                          <li>Content</li>
+                          <li>Rating : 6.6</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="pic">
+                        <a href="https://mephimtv.net/khach-san-huyen-bi/"><img class="slide-img" src="wp1906154.jpg" alt=""></a>
+                      </div>
+                      <div class="content">
+                        <ul>
+                          <li>Title : Hotel Transylvania</li>
+                          <li>Content</li>
+                          <li>Rating : 7.0/10</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                  </div>
+                  <div class="footer">
+                    <div class="footer-container">
+                      <div class="content-footer">
+                        <div class="mess">
+                          <h2>Contact</h2>
+                          <h3>facbin2993@gmail.com</h3>
+                          <h2><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-discord"></i></h2>
+                        </div>
+                        <div class="footer-icon"></div>
+                        <div class="made"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+       
+          slides[slideIndex-1].style.display = "block";  
+        }
+        let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+        </script>
+        
+</body>
+</html>
